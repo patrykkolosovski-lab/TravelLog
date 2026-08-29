@@ -17,7 +17,49 @@
 		B10000000000000000000008 /* AppPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000008 /* AppPalette.swift */; };
 		B10000000000000000000009 /* TravelAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000009 /* TravelAction.swift */; };
 		B10000000000000000000010 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000010 /* Assets.xcassets */; };
+		B10000000000000000000011 /* JournalEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000014 /* JournalEntry.swift */; };
+		B10000000000000000000012 /* TravelPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000015 /* TravelPhoto.swift */; };
+		B10000000000000000000013 /* ReferenceLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000016 /* ReferenceLocation.swift */; };
+		B10000000000000000000014 /* TravelDataValidationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000017 /* TravelDataValidationError.swift */; };
+		B10000000000000000000015 /* TravelLocationStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000018 /* TravelLocationStore.swift */; };
+		B10000000000000000000016 /* ReferenceDataSeeder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000019 /* ReferenceDataSeeder.swift */; };
+		B10000000000000000000017 /* GeoJSONMapService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000020 /* GeoJSONMapService.swift */; };
+		B10000000000000000000018 /* WorldMapSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000021 /* WorldMapSelection.swift */; };
+		B10000000000000000000019 /* ReferenceLocations.json in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000022 /* ReferenceLocations.json */; };
+		B10000000000000000000020 /* WorldMap.geojson in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000023 /* WorldMap.geojson */; };
+		B10000000000000000000021 /* WorldMapTiny.geojson in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000024 /* WorldMapTiny.geojson */; };
+		B10000000000000000000022 /* TravelDataModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000025 /* TravelDataModelTests.swift */; };
+		B10000000000000000000023 /* ReferenceDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000026 /* ReferenceDataTests.swift */; };
+		B10000000000000000000024 /* WorldMapDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000027 /* WorldMapDataTests.swift */; };
+		B10000000000000000000025 /* CitySearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000029 /* CitySearchService.swift */; };
+		B10000000000000000000026 /* CitySearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000030 /* CitySearchBar.swift */; };
+		B10000000000000000000027 /* VisitDetailsEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000031 /* VisitDetailsEditor.swift */; };
+		B10000000000000000000028 /* ReferenceLocationEditorSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000032 /* ReferenceLocationEditorSheet.swift */; };
+		B10000000000000000000029 /* CityLocationEditorSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000033 /* CityLocationEditorSheet.swift */; };
+		B10000000000000000000030 /* LocationDetailInspector.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000034 /* LocationDetailInspector.swift */; };
+		B10000000000000000000031 /* ManagedPhotoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000036 /* ManagedPhotoStore.swift */; };
+		B10000000000000000000032 /* JournalStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000037 /* JournalStore.swift */; };
+		B10000000000000000000033 /* TravelStatisticsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000038 /* TravelStatisticsService.swift */; };
+		B10000000000000000000034 /* BackupService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000039 /* BackupService.swift */; };
+		B10000000000000000000035 /* TravelLogArchiveDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000040 /* TravelLogArchiveDocument.swift */; };
+		B10000000000000000000036 /* SavedLocationPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000041 /* SavedLocationPicker.swift */; };
+		B10000000000000000000037 /* PhotoImportSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000042 /* PhotoImportSheet.swift */; };
+		B10000000000000000000038 /* JournalEditorSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000043 /* JournalEditorSheet.swift */; };
+		B10000000000000000000039 /* StatsSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000044 /* StatsSheet.swift */; };
+		B10000000000000000000040 /* PhotoPreviewSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000045 /* PhotoPreviewSheet.swift */; };
+		B10000000000000000000041 /* BackupSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000046 /* BackupSettingsView.swift */; };
+		B10000000000000000000042 /* TravelFeaturesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000048 /* TravelFeaturesTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		G10000000000000000000001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E10000000000000000000002 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E10000000000000000000001;
+			remoteInfo = TravelLog;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		A10000000000000000000001 /* TravelLogApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelLogApp.swift; sourceTree = "<group>"; };
@@ -33,10 +75,52 @@
 		A10000000000000000000011 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A10000000000000000000012 /* TravelLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A10000000000000000000013 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A10000000000000000000014 /* JournalEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntry.swift; sourceTree = "<group>"; };
+		A10000000000000000000015 /* TravelPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelPhoto.swift; sourceTree = "<group>"; };
+		A10000000000000000000016 /* ReferenceLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferenceLocation.swift; sourceTree = "<group>"; };
+		A10000000000000000000017 /* TravelDataValidationError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelDataValidationError.swift; sourceTree = "<group>"; };
+		A10000000000000000000018 /* TravelLocationStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelLocationStore.swift; sourceTree = "<group>"; };
+		A10000000000000000000019 /* ReferenceDataSeeder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferenceDataSeeder.swift; sourceTree = "<group>"; };
+		A10000000000000000000020 /* GeoJSONMapService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoJSONMapService.swift; sourceTree = "<group>"; };
+		A10000000000000000000021 /* WorldMapSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldMapSelection.swift; sourceTree = "<group>"; };
+		A10000000000000000000022 /* ReferenceLocations.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ReferenceLocations.json; sourceTree = "<group>"; };
+		A10000000000000000000023 /* WorldMap.geojson */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = WorldMap.geojson; sourceTree = "<group>"; };
+		A10000000000000000000024 /* WorldMapTiny.geojson */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = WorldMapTiny.geojson; sourceTree = "<group>"; };
+		A10000000000000000000025 /* TravelDataModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelDataModelTests.swift; sourceTree = "<group>"; };
+		A10000000000000000000026 /* ReferenceDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferenceDataTests.swift; sourceTree = "<group>"; };
+		A10000000000000000000027 /* WorldMapDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldMapDataTests.swift; sourceTree = "<group>"; };
+		A10000000000000000000028 /* TravelLogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravelLogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A10000000000000000000029 /* CitySearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitySearchService.swift; sourceTree = "<group>"; };
+		A10000000000000000000030 /* CitySearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitySearchBar.swift; sourceTree = "<group>"; };
+		A10000000000000000000031 /* VisitDetailsEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitDetailsEditor.swift; sourceTree = "<group>"; };
+		A10000000000000000000032 /* ReferenceLocationEditorSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferenceLocationEditorSheet.swift; sourceTree = "<group>"; };
+		A10000000000000000000033 /* CityLocationEditorSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityLocationEditorSheet.swift; sourceTree = "<group>"; };
+		A10000000000000000000034 /* LocationDetailInspector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailInspector.swift; sourceTree = "<group>"; };
+		A10000000000000000000035 /* TravelLog.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TravelLog.entitlements; sourceTree = "<group>"; };
+		A10000000000000000000036 /* ManagedPhotoStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagedPhotoStore.swift; sourceTree = "<group>"; };
+		A10000000000000000000037 /* JournalStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalStore.swift; sourceTree = "<group>"; };
+		A10000000000000000000038 /* TravelStatisticsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelStatisticsService.swift; sourceTree = "<group>"; };
+		A10000000000000000000039 /* BackupService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackupService.swift; sourceTree = "<group>"; };
+		A10000000000000000000040 /* TravelLogArchiveDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelLogArchiveDocument.swift; sourceTree = "<group>"; };
+		A10000000000000000000041 /* SavedLocationPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedLocationPicker.swift; sourceTree = "<group>"; };
+		A10000000000000000000042 /* PhotoImportSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoImportSheet.swift; sourceTree = "<group>"; };
+		A10000000000000000000043 /* JournalEditorSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEditorSheet.swift; sourceTree = "<group>"; };
+		A10000000000000000000044 /* StatsSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsSheet.swift; sourceTree = "<group>"; };
+		A10000000000000000000045 /* PhotoPreviewSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPreviewSheet.swift; sourceTree = "<group>"; };
+		A10000000000000000000046 /* BackupSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackupSettingsView.swift; sourceTree = "<group>"; };
+		A10000000000000000000047 /* BackupFormat.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = BackupFormat.md; sourceTree = "<group>"; };
+		A10000000000000000000048 /* TravelFeaturesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelFeaturesTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		C10000000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C10000000000000000000004 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -50,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				D10000000000000000000002 /* TravelLog */,
+				D10000000000000000000012 /* TravelLogTests */,
 				A10000000000000000000011 /* README.md */,
 				D10000000000000000000009 /* Products */,
 			);
@@ -64,6 +149,8 @@
 				D10000000000000000000006 /* Services */,
 				D10000000000000000000008 /* MapData */,
 				D10000000000000000000007 /* Utilities */,
+				A10000000000000000000047 /* BackupFormat.md */,
+				A10000000000000000000035 /* TravelLog.entitlements */,
 				A10000000000000000000010 /* Assets.xcassets */,
 			);
 			path = TravelLog;
@@ -81,6 +168,10 @@
 			isa = PBXGroup;
 			children = (
 				A10000000000000000000002 /* TravelLocation.swift */,
+				A10000000000000000000014 /* JournalEntry.swift */,
+				A10000000000000000000015 /* TravelPhoto.swift */,
+				A10000000000000000000016 /* ReferenceLocation.swift */,
+				A10000000000000000000017 /* TravelDataValidationError.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -91,6 +182,7 @@
 				A10000000000000000000003 /* ContentView.swift */,
 				D10000000000000000000010 /* Components */,
 				D10000000000000000000011 /* Sheets */,
+				D10000000000000000000013 /* Settings */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -99,6 +191,14 @@
 			isa = PBXGroup;
 			children = (
 				A10000000000000000000007 /* AppDirectories.swift */,
+				A10000000000000000000018 /* TravelLocationStore.swift */,
+				A10000000000000000000019 /* ReferenceDataSeeder.swift */,
+				A10000000000000000000020 /* GeoJSONMapService.swift */,
+				A10000000000000000000029 /* CitySearchService.swift */,
+				A10000000000000000000036 /* ManagedPhotoStore.swift */,
+				A10000000000000000000037 /* JournalStore.swift */,
+				A10000000000000000000038 /* TravelStatisticsService.swift */,
+				A10000000000000000000039 /* BackupService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -108,6 +208,7 @@
 			children = (
 				A10000000000000000000008 /* AppPalette.swift */,
 				A10000000000000000000009 /* TravelAction.swift */,
+				A10000000000000000000040 /* TravelLogArchiveDocument.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -116,6 +217,9 @@
 			isa = PBXGroup;
 			children = (
 				A10000000000000000000013 /* README.md */,
+				A10000000000000000000022 /* ReferenceLocations.json */,
+				A10000000000000000000023 /* WorldMap.geojson */,
+				A10000000000000000000024 /* WorldMapTiny.geojson */,
 			);
 			path = MapData;
 			sourceTree = "<group>";
@@ -124,6 +228,7 @@
 			isa = PBXGroup;
 			children = (
 				A10000000000000000000012 /* TravelLog.app */,
+				A10000000000000000000028 /* TravelLogTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -132,6 +237,11 @@
 			isa = PBXGroup;
 			children = (
 				A10000000000000000000004 /* WorldMapView.swift */,
+				A10000000000000000000021 /* WorldMapSelection.swift */,
+				A10000000000000000000030 /* CitySearchBar.swift */,
+				A10000000000000000000031 /* VisitDetailsEditor.swift */,
+				A10000000000000000000034 /* LocationDetailInspector.swift */,
+				A10000000000000000000041 /* SavedLocationPicker.swift */,
 				A10000000000000000000005 /* BottomActionBar.swift */,
 			);
 			path = Components;
@@ -141,8 +251,33 @@
 			isa = PBXGroup;
 			children = (
 				A10000000000000000000006 /* ActionSheetView.swift */,
+				A10000000000000000000032 /* ReferenceLocationEditorSheet.swift */,
+				A10000000000000000000033 /* CityLocationEditorSheet.swift */,
+				A10000000000000000000042 /* PhotoImportSheet.swift */,
+				A10000000000000000000043 /* JournalEditorSheet.swift */,
+				A10000000000000000000044 /* StatsSheet.swift */,
+				A10000000000000000000045 /* PhotoPreviewSheet.swift */,
 			);
 			path = Sheets;
+			sourceTree = "<group>";
+		};
+		D10000000000000000000012 /* TravelLogTests */ = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000025 /* TravelDataModelTests.swift */,
+				A10000000000000000000026 /* ReferenceDataTests.swift */,
+				A10000000000000000000027 /* WorldMapDataTests.swift */,
+				A10000000000000000000048 /* TravelFeaturesTests.swift */,
+			);
+			path = TravelLogTests;
+			sourceTree = "<group>";
+		};
+		D10000000000000000000013 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000046 /* BackupSettingsView.swift */,
+			);
+			path = Settings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +300,24 @@
 			productReference = A10000000000000000000012 /* TravelLog.app */;
 			productType = "com.apple.product-type.application";
 		};
+		E10000000000000000000003 /* TravelLogTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F10000000000000000000003 /* Build configuration list for PBXNativeTarget "TravelLogTests" */;
+			buildPhases = (
+				C10000000000000000000005 /* Sources */,
+				C10000000000000000000004 /* Frameworks */,
+				C10000000000000000000006 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				G10000000000000000000002 /* PBXTargetDependency */,
+			);
+			name = TravelLogTests;
+			productName = TravelLogTests;
+			productReference = A10000000000000000000028 /* TravelLogTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -177,6 +330,10 @@
 				TargetAttributes = {
 					E10000000000000000000001 = {
 						CreatedOnToolsVersion = 26.3;
+					};
+					E10000000000000000000003 = {
+						CreatedOnToolsVersion = 26.3;
+						TestTargetID = E10000000000000000000001;
 					};
 				};
 			};
@@ -194,6 +351,7 @@
 			projectRoot = "";
 			targets = (
 				E10000000000000000000001 /* TravelLog */,
+				E10000000000000000000003 /* TravelLogTests */,
 			);
 		};
 /* End PBXProject section */
@@ -204,6 +362,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				B10000000000000000000010 /* Assets.xcassets in Resources */,
+				B10000000000000000000019 /* ReferenceLocations.json in Resources */,
+				B10000000000000000000020 /* WorldMap.geojson in Resources */,
+				B10000000000000000000021 /* WorldMapTiny.geojson in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C10000000000000000000006 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,10 +391,54 @@
 				B10000000000000000000007 /* AppDirectories.swift in Sources */,
 				B10000000000000000000008 /* AppPalette.swift in Sources */,
 				B10000000000000000000009 /* TravelAction.swift in Sources */,
+				B10000000000000000000011 /* JournalEntry.swift in Sources */,
+				B10000000000000000000012 /* TravelPhoto.swift in Sources */,
+				B10000000000000000000013 /* ReferenceLocation.swift in Sources */,
+				B10000000000000000000014 /* TravelDataValidationError.swift in Sources */,
+				B10000000000000000000015 /* TravelLocationStore.swift in Sources */,
+				B10000000000000000000016 /* ReferenceDataSeeder.swift in Sources */,
+				B10000000000000000000017 /* GeoJSONMapService.swift in Sources */,
+				B10000000000000000000018 /* WorldMapSelection.swift in Sources */,
+				B10000000000000000000025 /* CitySearchService.swift in Sources */,
+				B10000000000000000000026 /* CitySearchBar.swift in Sources */,
+				B10000000000000000000027 /* VisitDetailsEditor.swift in Sources */,
+				B10000000000000000000028 /* ReferenceLocationEditorSheet.swift in Sources */,
+				B10000000000000000000029 /* CityLocationEditorSheet.swift in Sources */,
+				B10000000000000000000030 /* LocationDetailInspector.swift in Sources */,
+				B10000000000000000000031 /* ManagedPhotoStore.swift in Sources */,
+				B10000000000000000000032 /* JournalStore.swift in Sources */,
+				B10000000000000000000033 /* TravelStatisticsService.swift in Sources */,
+				B10000000000000000000034 /* BackupService.swift in Sources */,
+				B10000000000000000000035 /* TravelLogArchiveDocument.swift in Sources */,
+				B10000000000000000000036 /* SavedLocationPicker.swift in Sources */,
+				B10000000000000000000037 /* PhotoImportSheet.swift in Sources */,
+				B10000000000000000000038 /* JournalEditorSheet.swift in Sources */,
+				B10000000000000000000039 /* StatsSheet.swift in Sources */,
+				B10000000000000000000040 /* PhotoPreviewSheet.swift in Sources */,
+				B10000000000000000000041 /* BackupSettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C10000000000000000000005 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B10000000000000000000022 /* TravelDataModelTests.swift in Sources */,
+				B10000000000000000000023 /* ReferenceDataTests.swift in Sources */,
+				B10000000000000000000024 /* WorldMapDataTests.swift in Sources */,
+				B10000000000000000000042 /* TravelFeaturesTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		G10000000000000000000002 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E10000000000000000000001 /* TravelLog */;
+			targetProxy = G10000000000000000000001 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		110000000000000000000001 /* Debug */ = {
@@ -335,7 +547,9 @@
 		110000000000000000000003 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TravelLog/TravelLog.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -362,7 +576,9 @@
 		110000000000000000000004 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TravelLog/TravelLog.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -386,6 +602,46 @@
 			};
 			name = Release;
 		};
+		110000000000000000000005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.patrykkolosovski.TravelLogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TravelLog.app/Contents/MacOS/TravelLog";
+			};
+			name = Debug;
+		};
+		110000000000000000000006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.patrykkolosovski.TravelLogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TravelLog.app/Contents/MacOS/TravelLog";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -403,6 +659,15 @@
 			buildConfigurations = (
 				110000000000000000000003 /* Debug */,
 				110000000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F10000000000000000000003 /* Build configuration list for PBXNativeTarget "TravelLogTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				110000000000000000000005 /* Debug */,
+				110000000000000000000006 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

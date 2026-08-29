@@ -18,4 +18,34 @@ enum AppDirectories {
             return appURL
         }
     }
+
+    static var photos: URL {
+        get throws {
+            let fileManager = FileManager.default
+            let photosURL = try applicationSupport.appending(
+                path: "Photos",
+                directoryHint: .isDirectory
+            )
+            try fileManager.createDirectory(
+                at: photosURL,
+                withIntermediateDirectories: true
+            )
+            return photosURL
+        }
+    }
+
+    static var backups: URL {
+        get throws {
+            let fileManager = FileManager.default
+            let backupsURL = try applicationSupport.appending(
+                path: "Backups",
+                directoryHint: .isDirectory
+            )
+            try fileManager.createDirectory(
+                at: backupsURL,
+                withIntermediateDirectories: true
+            )
+            return backupsURL
+        }
+    }
 }

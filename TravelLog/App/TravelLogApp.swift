@@ -3,9 +3,14 @@ import SwiftUI
 
 @main
 struct TravelLogApp: App {
-    private let modelContainer: ModelContainer = {
+    private let modelContainer: ModelContainer
+
+    init() {
         let schema = Schema([
-            TravelLocation.self
+            TravelLocation.self,
+            JournalEntry.self,
+            TravelPhoto.self,
+            ReferenceLocation.self
         ])
         let configuration = ModelConfiguration(
             schema: schema,
@@ -13,14 +18,16 @@ struct TravelLogApp: App {
         )
 
         do {
-            return try ModelContainer(
+            let container = try ModelContainer(
                 for: schema,
                 configurations: [configuration]
             )
+            try ReferenceDataSeeder.seedIfNeeded(in: container.mainContext)
+            modelContainer = container
         } catch {
             fatalError("Unable to create the TravelLog data store: \(error)")
         }
-    }()
+    }
 
     var body: some Scene {
         WindowGroup {
@@ -30,5 +37,10 @@ struct TravelLogApp: App {
         .modelContainer(modelContainer)
         .defaultSize(width: 1180, height: 760)
         .windowResizability(.contentMinSize)
+
+        Settings {
+            BackupSettingsView()
+                .modelContainer(modelContainer)
+        }
     }
 }

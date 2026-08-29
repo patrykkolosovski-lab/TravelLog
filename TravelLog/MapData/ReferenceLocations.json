@@ -1,0 +1,1689 @@
+{
+  "schemaVersion": 2,
+  "sources": [
+    "https://www.un.org/about-us/member-states",
+    "https://www.un.org/dppa/decolonization/nsgt"
+  ],
+  "records": [
+    {
+      "stableIdentifier": "un:AFG",
+      "displayName": "Afghanistan",
+      "category": "country",
+      "geometryIdentifier": "AFG",
+      "continent": "Asia",
+      "flagCode": "AF"
+    },
+    {
+      "stableIdentifier": "un:ALB",
+      "displayName": "Albania",
+      "category": "country",
+      "geometryIdentifier": "ALB",
+      "continent": "Europe",
+      "flagCode": "AL"
+    },
+    {
+      "stableIdentifier": "un:DZA",
+      "displayName": "Algeria",
+      "category": "country",
+      "geometryIdentifier": "DZA",
+      "continent": "Africa",
+      "flagCode": "DZ"
+    },
+    {
+      "stableIdentifier": "un:AND",
+      "displayName": "Andorra",
+      "category": "country",
+      "geometryIdentifier": "AND",
+      "continent": "Europe",
+      "flagCode": "AD"
+    },
+    {
+      "stableIdentifier": "un:AGO",
+      "displayName": "Angola",
+      "category": "country",
+      "geometryIdentifier": "AGO",
+      "continent": "Africa",
+      "flagCode": "AO"
+    },
+    {
+      "stableIdentifier": "un:ATG",
+      "displayName": "Antigua and Barbuda",
+      "category": "country",
+      "geometryIdentifier": "ATG",
+      "continent": "North America",
+      "flagCode": "AG"
+    },
+    {
+      "stableIdentifier": "un:ARG",
+      "displayName": "Argentina",
+      "category": "country",
+      "geometryIdentifier": "ARG",
+      "continent": "South America",
+      "flagCode": "AR"
+    },
+    {
+      "stableIdentifier": "un:ARM",
+      "displayName": "Armenia",
+      "category": "country",
+      "geometryIdentifier": "ARM",
+      "continent": "Asia",
+      "flagCode": "AM"
+    },
+    {
+      "stableIdentifier": "un:AUS",
+      "displayName": "Australia",
+      "category": "country",
+      "geometryIdentifier": "AUS",
+      "continent": "Oceania",
+      "flagCode": "AU"
+    },
+    {
+      "stableIdentifier": "un:AUT",
+      "displayName": "Austria",
+      "category": "country",
+      "geometryIdentifier": "AUT",
+      "continent": "Europe",
+      "flagCode": "AT"
+    },
+    {
+      "stableIdentifier": "un:AZE",
+      "displayName": "Azerbaijan",
+      "category": "country",
+      "geometryIdentifier": "AZE",
+      "continent": "Asia",
+      "flagCode": "AZ"
+    },
+    {
+      "stableIdentifier": "un:BHS",
+      "displayName": "Bahamas",
+      "category": "country",
+      "geometryIdentifier": "BHS",
+      "continent": "North America",
+      "flagCode": "BS"
+    },
+    {
+      "stableIdentifier": "un:BHR",
+      "displayName": "Bahrain",
+      "category": "country",
+      "geometryIdentifier": "BHR",
+      "continent": "Asia",
+      "flagCode": "BH"
+    },
+    {
+      "stableIdentifier": "un:BGD",
+      "displayName": "Bangladesh",
+      "category": "country",
+      "geometryIdentifier": "BGD",
+      "continent": "Asia",
+      "flagCode": "BD"
+    },
+    {
+      "stableIdentifier": "un:BRB",
+      "displayName": "Barbados",
+      "category": "country",
+      "geometryIdentifier": "BRB",
+      "continent": "North America",
+      "flagCode": "BB"
+    },
+    {
+      "stableIdentifier": "un:BLR",
+      "displayName": "Belarus",
+      "category": "country",
+      "geometryIdentifier": "BLR",
+      "continent": "Europe",
+      "flagCode": "BY"
+    },
+    {
+      "stableIdentifier": "un:BEL",
+      "displayName": "Belgium",
+      "category": "country",
+      "geometryIdentifier": "BEL",
+      "continent": "Europe",
+      "flagCode": "BE"
+    },
+    {
+      "stableIdentifier": "un:BLZ",
+      "displayName": "Belize",
+      "category": "country",
+      "geometryIdentifier": "BLZ",
+      "continent": "North America",
+      "flagCode": "BZ"
+    },
+    {
+      "stableIdentifier": "un:BEN",
+      "displayName": "Benin",
+      "category": "country",
+      "geometryIdentifier": "BEN",
+      "continent": "Africa",
+      "flagCode": "BJ"
+    },
+    {
+      "stableIdentifier": "un:BTN",
+      "displayName": "Bhutan",
+      "category": "country",
+      "geometryIdentifier": "BTN",
+      "continent": "Asia",
+      "flagCode": "BT"
+    },
+    {
+      "stableIdentifier": "un:BOL",
+      "displayName": "Bolivia",
+      "category": "country",
+      "geometryIdentifier": "BOL",
+      "continent": "South America",
+      "flagCode": "BO"
+    },
+    {
+      "stableIdentifier": "un:BIH",
+      "displayName": "Bosnia and Herzegovina",
+      "category": "country",
+      "geometryIdentifier": "BIH",
+      "continent": "Europe",
+      "flagCode": "BA"
+    },
+    {
+      "stableIdentifier": "un:BWA",
+      "displayName": "Botswana",
+      "category": "country",
+      "geometryIdentifier": "BWA",
+      "continent": "Africa",
+      "flagCode": "BW"
+    },
+    {
+      "stableIdentifier": "un:BRA",
+      "displayName": "Brazil",
+      "category": "country",
+      "geometryIdentifier": "BRA",
+      "continent": "South America",
+      "flagCode": "BR"
+    },
+    {
+      "stableIdentifier": "un:BRN",
+      "displayName": "Brunei Darussalam",
+      "category": "country",
+      "geometryIdentifier": "BRN",
+      "continent": "Asia",
+      "flagCode": "BN"
+    },
+    {
+      "stableIdentifier": "un:BGR",
+      "displayName": "Bulgaria",
+      "category": "country",
+      "geometryIdentifier": "BGR",
+      "continent": "Europe",
+      "flagCode": "BG"
+    },
+    {
+      "stableIdentifier": "un:BFA",
+      "displayName": "Burkina Faso",
+      "category": "country",
+      "geometryIdentifier": "BFA",
+      "continent": "Africa",
+      "flagCode": "BF"
+    },
+    {
+      "stableIdentifier": "un:BDI",
+      "displayName": "Burundi",
+      "category": "country",
+      "geometryIdentifier": "BDI",
+      "continent": "Africa",
+      "flagCode": "BI"
+    },
+    {
+      "stableIdentifier": "un:CPV",
+      "displayName": "Cabo Verde",
+      "category": "country",
+      "geometryIdentifier": "CPV",
+      "continent": "Africa",
+      "flagCode": "CV"
+    },
+    {
+      "stableIdentifier": "un:KHM",
+      "displayName": "Cambodia",
+      "category": "country",
+      "geometryIdentifier": "KHM",
+      "continent": "Asia",
+      "flagCode": "KH"
+    },
+    {
+      "stableIdentifier": "un:CMR",
+      "displayName": "Cameroon",
+      "category": "country",
+      "geometryIdentifier": "CMR",
+      "continent": "Africa",
+      "flagCode": "CM"
+    },
+    {
+      "stableIdentifier": "un:CAN",
+      "displayName": "Canada",
+      "category": "country",
+      "geometryIdentifier": "CAN",
+      "continent": "North America",
+      "flagCode": "CA"
+    },
+    {
+      "stableIdentifier": "un:CAF",
+      "displayName": "Central African Republic",
+      "category": "country",
+      "geometryIdentifier": "CAF",
+      "continent": "Africa",
+      "flagCode": "CF"
+    },
+    {
+      "stableIdentifier": "un:TCD",
+      "displayName": "Chad",
+      "category": "country",
+      "geometryIdentifier": "TCD",
+      "continent": "Africa",
+      "flagCode": "TD"
+    },
+    {
+      "stableIdentifier": "un:CHL",
+      "displayName": "Chile",
+      "category": "country",
+      "geometryIdentifier": "CHL",
+      "continent": "South America",
+      "flagCode": "CL"
+    },
+    {
+      "stableIdentifier": "un:CHN",
+      "displayName": "China",
+      "category": "country",
+      "geometryIdentifier": "CHN",
+      "continent": "Asia",
+      "flagCode": "CN"
+    },
+    {
+      "stableIdentifier": "un:COL",
+      "displayName": "Colombia",
+      "category": "country",
+      "geometryIdentifier": "COL",
+      "continent": "South America",
+      "flagCode": "CO"
+    },
+    {
+      "stableIdentifier": "un:COM",
+      "displayName": "Comoros",
+      "category": "country",
+      "geometryIdentifier": "COM",
+      "continent": "Africa",
+      "flagCode": "KM"
+    },
+    {
+      "stableIdentifier": "un:COG",
+      "displayName": "Congo",
+      "category": "country",
+      "geometryIdentifier": "COG",
+      "continent": "Africa",
+      "flagCode": "CG"
+    },
+    {
+      "stableIdentifier": "un:CRI",
+      "displayName": "Costa Rica",
+      "category": "country",
+      "geometryIdentifier": "CRI",
+      "continent": "North America",
+      "flagCode": "CR"
+    },
+    {
+      "stableIdentifier": "un:CIV",
+      "displayName": "Cote d'Ivoire",
+      "category": "country",
+      "geometryIdentifier": "CIV",
+      "continent": "Africa",
+      "flagCode": "CI"
+    },
+    {
+      "stableIdentifier": "un:HRV",
+      "displayName": "Croatia",
+      "category": "country",
+      "geometryIdentifier": "HRV",
+      "continent": "Europe",
+      "flagCode": "HR"
+    },
+    {
+      "stableIdentifier": "un:CUB",
+      "displayName": "Cuba",
+      "category": "country",
+      "geometryIdentifier": "CUB",
+      "continent": "North America",
+      "flagCode": "CU"
+    },
+    {
+      "stableIdentifier": "un:CYP",
+      "displayName": "Cyprus",
+      "category": "country",
+      "geometryIdentifier": "CYP",
+      "continent": "Asia",
+      "flagCode": "CY"
+    },
+    {
+      "stableIdentifier": "un:CZE",
+      "displayName": "Czechia",
+      "category": "country",
+      "geometryIdentifier": "CZE",
+      "continent": "Europe",
+      "flagCode": "CZ"
+    },
+    {
+      "stableIdentifier": "un:PRK",
+      "displayName": "Democratic People's Republic of Korea",
+      "category": "country",
+      "geometryIdentifier": "PRK",
+      "continent": "Asia",
+      "flagCode": "KP"
+    },
+    {
+      "stableIdentifier": "un:COD",
+      "displayName": "Democratic Republic of the Congo",
+      "category": "country",
+      "geometryIdentifier": "COD",
+      "continent": "Africa",
+      "flagCode": "CD"
+    },
+    {
+      "stableIdentifier": "un:DNK",
+      "displayName": "Denmark",
+      "category": "country",
+      "geometryIdentifier": "DNK",
+      "continent": "Europe",
+      "flagCode": "DK"
+    },
+    {
+      "stableIdentifier": "un:DJI",
+      "displayName": "Djibouti",
+      "category": "country",
+      "geometryIdentifier": "DJI",
+      "continent": "Africa",
+      "flagCode": "DJ"
+    },
+    {
+      "stableIdentifier": "un:DMA",
+      "displayName": "Dominica",
+      "category": "country",
+      "geometryIdentifier": "DMA",
+      "continent": "North America",
+      "flagCode": "DM"
+    },
+    {
+      "stableIdentifier": "un:DOM",
+      "displayName": "Dominican Republic",
+      "category": "country",
+      "geometryIdentifier": "DOM",
+      "continent": "North America",
+      "flagCode": "DO"
+    },
+    {
+      "stableIdentifier": "un:ECU",
+      "displayName": "Ecuador",
+      "category": "country",
+      "geometryIdentifier": "ECU",
+      "continent": "South America",
+      "flagCode": "EC"
+    },
+    {
+      "stableIdentifier": "un:EGY",
+      "displayName": "Egypt",
+      "category": "country",
+      "geometryIdentifier": "EGY",
+      "continent": "Africa",
+      "flagCode": "EG"
+    },
+    {
+      "stableIdentifier": "un:SLV",
+      "displayName": "El Salvador",
+      "category": "country",
+      "geometryIdentifier": "SLV",
+      "continent": "North America",
+      "flagCode": "SV"
+    },
+    {
+      "stableIdentifier": "un:GNQ",
+      "displayName": "Equatorial Guinea",
+      "category": "country",
+      "geometryIdentifier": "GNQ",
+      "continent": "Africa",
+      "flagCode": "GQ"
+    },
+    {
+      "stableIdentifier": "un:ERI",
+      "displayName": "Eritrea",
+      "category": "country",
+      "geometryIdentifier": "ERI",
+      "continent": "Africa",
+      "flagCode": "ER"
+    },
+    {
+      "stableIdentifier": "un:EST",
+      "displayName": "Estonia",
+      "category": "country",
+      "geometryIdentifier": "EST",
+      "continent": "Europe",
+      "flagCode": "EE"
+    },
+    {
+      "stableIdentifier": "un:SWZ",
+      "displayName": "Eswatini",
+      "category": "country",
+      "geometryIdentifier": "SWZ",
+      "continent": "Africa",
+      "flagCode": "SZ"
+    },
+    {
+      "stableIdentifier": "un:ETH",
+      "displayName": "Ethiopia",
+      "category": "country",
+      "geometryIdentifier": "ETH",
+      "continent": "Africa",
+      "flagCode": "ET"
+    },
+    {
+      "stableIdentifier": "un:FJI",
+      "displayName": "Fiji",
+      "category": "country",
+      "geometryIdentifier": "FJI",
+      "continent": "Oceania",
+      "flagCode": "FJ"
+    },
+    {
+      "stableIdentifier": "un:FIN",
+      "displayName": "Finland",
+      "category": "country",
+      "geometryIdentifier": "FIN",
+      "continent": "Europe",
+      "flagCode": "FI"
+    },
+    {
+      "stableIdentifier": "un:FRA",
+      "displayName": "France",
+      "category": "country",
+      "geometryIdentifier": "FRA",
+      "continent": "Europe",
+      "flagCode": "FR"
+    },
+    {
+      "stableIdentifier": "un:GAB",
+      "displayName": "Gabon",
+      "category": "country",
+      "geometryIdentifier": "GAB",
+      "continent": "Africa",
+      "flagCode": "GA"
+    },
+    {
+      "stableIdentifier": "un:GMB",
+      "displayName": "Gambia",
+      "category": "country",
+      "geometryIdentifier": "GMB",
+      "continent": "Africa",
+      "flagCode": "GM"
+    },
+    {
+      "stableIdentifier": "un:GEO",
+      "displayName": "Georgia",
+      "category": "country",
+      "geometryIdentifier": "GEO",
+      "continent": "Asia",
+      "flagCode": "GE"
+    },
+    {
+      "stableIdentifier": "un:DEU",
+      "displayName": "Germany",
+      "category": "country",
+      "geometryIdentifier": "DEU",
+      "continent": "Europe",
+      "flagCode": "DE"
+    },
+    {
+      "stableIdentifier": "un:GHA",
+      "displayName": "Ghana",
+      "category": "country",
+      "geometryIdentifier": "GHA",
+      "continent": "Africa",
+      "flagCode": "GH"
+    },
+    {
+      "stableIdentifier": "un:GRC",
+      "displayName": "Greece",
+      "category": "country",
+      "geometryIdentifier": "GRC",
+      "continent": "Europe",
+      "flagCode": "GR"
+    },
+    {
+      "stableIdentifier": "un:GRD",
+      "displayName": "Grenada",
+      "category": "country",
+      "geometryIdentifier": "GRD",
+      "continent": "North America",
+      "flagCode": "GD"
+    },
+    {
+      "stableIdentifier": "un:GTM",
+      "displayName": "Guatemala",
+      "category": "country",
+      "geometryIdentifier": "GTM",
+      "continent": "North America",
+      "flagCode": "GT"
+    },
+    {
+      "stableIdentifier": "un:GIN",
+      "displayName": "Guinea",
+      "category": "country",
+      "geometryIdentifier": "GIN",
+      "continent": "Africa",
+      "flagCode": "GN"
+    },
+    {
+      "stableIdentifier": "un:GNB",
+      "displayName": "Guinea-Bissau",
+      "category": "country",
+      "geometryIdentifier": "GNB",
+      "continent": "Africa",
+      "flagCode": "GW"
+    },
+    {
+      "stableIdentifier": "un:GUY",
+      "displayName": "Guyana",
+      "category": "country",
+      "geometryIdentifier": "GUY",
+      "continent": "South America",
+      "flagCode": "GY"
+    },
+    {
+      "stableIdentifier": "un:HTI",
+      "displayName": "Haiti",
+      "category": "country",
+      "geometryIdentifier": "HTI",
+      "continent": "North America",
+      "flagCode": "HT"
+    },
+    {
+      "stableIdentifier": "un:HND",
+      "displayName": "Honduras",
+      "category": "country",
+      "geometryIdentifier": "HND",
+      "continent": "North America",
+      "flagCode": "HN"
+    },
+    {
+      "stableIdentifier": "un:HUN",
+      "displayName": "Hungary",
+      "category": "country",
+      "geometryIdentifier": "HUN",
+      "continent": "Europe",
+      "flagCode": "HU"
+    },
+    {
+      "stableIdentifier": "un:ISL",
+      "displayName": "Iceland",
+      "category": "country",
+      "geometryIdentifier": "ISL",
+      "continent": "Europe",
+      "flagCode": "IS"
+    },
+    {
+      "stableIdentifier": "un:IND",
+      "displayName": "India",
+      "category": "country",
+      "geometryIdentifier": "IND",
+      "continent": "Asia",
+      "flagCode": "IN"
+    },
+    {
+      "stableIdentifier": "un:IDN",
+      "displayName": "Indonesia",
+      "category": "country",
+      "geometryIdentifier": "IDN",
+      "continent": "Asia",
+      "flagCode": "ID"
+    },
+    {
+      "stableIdentifier": "un:IRN",
+      "displayName": "Iran",
+      "category": "country",
+      "geometryIdentifier": "IRN",
+      "continent": "Asia",
+      "flagCode": "IR"
+    },
+    {
+      "stableIdentifier": "un:IRQ",
+      "displayName": "Iraq",
+      "category": "country",
+      "geometryIdentifier": "IRQ",
+      "continent": "Asia",
+      "flagCode": "IQ"
+    },
+    {
+      "stableIdentifier": "un:IRL",
+      "displayName": "Ireland",
+      "category": "country",
+      "geometryIdentifier": "IRL",
+      "continent": "Europe",
+      "flagCode": "IE"
+    },
+    {
+      "stableIdentifier": "un:ISR",
+      "displayName": "Israel",
+      "category": "country",
+      "geometryIdentifier": "ISR",
+      "continent": "Asia",
+      "flagCode": "IL"
+    },
+    {
+      "stableIdentifier": "un:ITA",
+      "displayName": "Italy",
+      "category": "country",
+      "geometryIdentifier": "ITA",
+      "continent": "Europe",
+      "flagCode": "IT"
+    },
+    {
+      "stableIdentifier": "un:JAM",
+      "displayName": "Jamaica",
+      "category": "country",
+      "geometryIdentifier": "JAM",
+      "continent": "North America",
+      "flagCode": "JM"
+    },
+    {
+      "stableIdentifier": "un:JPN",
+      "displayName": "Japan",
+      "category": "country",
+      "geometryIdentifier": "JPN",
+      "continent": "Asia",
+      "flagCode": "JP"
+    },
+    {
+      "stableIdentifier": "un:JOR",
+      "displayName": "Jordan",
+      "category": "country",
+      "geometryIdentifier": "JOR",
+      "continent": "Asia",
+      "flagCode": "JO"
+    },
+    {
+      "stableIdentifier": "un:KAZ",
+      "displayName": "Kazakhstan",
+      "category": "country",
+      "geometryIdentifier": "KAZ",
+      "continent": "Asia",
+      "flagCode": "KZ"
+    },
+    {
+      "stableIdentifier": "un:KEN",
+      "displayName": "Kenya",
+      "category": "country",
+      "geometryIdentifier": "KEN",
+      "continent": "Africa",
+      "flagCode": "KE"
+    },
+    {
+      "stableIdentifier": "un:KIR",
+      "displayName": "Kiribati",
+      "category": "country",
+      "geometryIdentifier": "KIR",
+      "continent": "Oceania",
+      "flagCode": "KI"
+    },
+    {
+      "stableIdentifier": "un:KWT",
+      "displayName": "Kuwait",
+      "category": "country",
+      "geometryIdentifier": "KWT",
+      "continent": "Asia",
+      "flagCode": "KW"
+    },
+    {
+      "stableIdentifier": "un:KGZ",
+      "displayName": "Kyrgyzstan",
+      "category": "country",
+      "geometryIdentifier": "KGZ",
+      "continent": "Asia",
+      "flagCode": "KG"
+    },
+    {
+      "stableIdentifier": "un:LAO",
+      "displayName": "Lao People's Democratic Republic",
+      "category": "country",
+      "geometryIdentifier": "LAO",
+      "continent": "Asia",
+      "flagCode": "LA"
+    },
+    {
+      "stableIdentifier": "un:LVA",
+      "displayName": "Latvia",
+      "category": "country",
+      "geometryIdentifier": "LVA",
+      "continent": "Europe",
+      "flagCode": "LV"
+    },
+    {
+      "stableIdentifier": "un:LBN",
+      "displayName": "Lebanon",
+      "category": "country",
+      "geometryIdentifier": "LBN",
+      "continent": "Asia",
+      "flagCode": "LB"
+    },
+    {
+      "stableIdentifier": "un:LSO",
+      "displayName": "Lesotho",
+      "category": "country",
+      "geometryIdentifier": "LSO",
+      "continent": "Africa",
+      "flagCode": "LS"
+    },
+    {
+      "stableIdentifier": "un:LBR",
+      "displayName": "Liberia",
+      "category": "country",
+      "geometryIdentifier": "LBR",
+      "continent": "Africa",
+      "flagCode": "LR"
+    },
+    {
+      "stableIdentifier": "un:LBY",
+      "displayName": "Libya",
+      "category": "country",
+      "geometryIdentifier": "LBY",
+      "continent": "Africa",
+      "flagCode": "LY"
+    },
+    {
+      "stableIdentifier": "un:LIE",
+      "displayName": "Liechtenstein",
+      "category": "country",
+      "geometryIdentifier": "LIE",
+      "continent": "Europe",
+      "flagCode": "LI"
+    },
+    {
+      "stableIdentifier": "un:LTU",
+      "displayName": "Lithuania",
+      "category": "country",
+      "geometryIdentifier": "LTU",
+      "continent": "Europe",
+      "flagCode": "LT"
+    },
+    {
+      "stableIdentifier": "un:LUX",
+      "displayName": "Luxembourg",
+      "category": "country",
+      "geometryIdentifier": "LUX",
+      "continent": "Europe",
+      "flagCode": "LU"
+    },
+    {
+      "stableIdentifier": "un:MDG",
+      "displayName": "Madagascar",
+      "category": "country",
+      "geometryIdentifier": "MDG",
+      "continent": "Africa",
+      "flagCode": "MG"
+    },
+    {
+      "stableIdentifier": "un:MWI",
+      "displayName": "Malawi",
+      "category": "country",
+      "geometryIdentifier": "MWI",
+      "continent": "Africa",
+      "flagCode": "MW"
+    },
+    {
+      "stableIdentifier": "un:MYS",
+      "displayName": "Malaysia",
+      "category": "country",
+      "geometryIdentifier": "MYS",
+      "continent": "Asia",
+      "flagCode": "MY"
+    },
+    {
+      "stableIdentifier": "un:MDV",
+      "displayName": "Maldives",
+      "category": "country",
+      "geometryIdentifier": "MDV",
+      "continent": "Asia",
+      "flagCode": "MV"
+    },
+    {
+      "stableIdentifier": "un:MLI",
+      "displayName": "Mali",
+      "category": "country",
+      "geometryIdentifier": "MLI",
+      "continent": "Africa",
+      "flagCode": "ML"
+    },
+    {
+      "stableIdentifier": "un:MLT",
+      "displayName": "Malta",
+      "category": "country",
+      "geometryIdentifier": "MLT",
+      "continent": "Europe",
+      "flagCode": "MT"
+    },
+    {
+      "stableIdentifier": "un:MHL",
+      "displayName": "Marshall Islands",
+      "category": "country",
+      "geometryIdentifier": "MHL",
+      "continent": "Oceania",
+      "flagCode": "MH"
+    },
+    {
+      "stableIdentifier": "un:MRT",
+      "displayName": "Mauritania",
+      "category": "country",
+      "geometryIdentifier": "MRT",
+      "continent": "Africa",
+      "flagCode": "MR"
+    },
+    {
+      "stableIdentifier": "un:MUS",
+      "displayName": "Mauritius",
+      "category": "country",
+      "geometryIdentifier": "MUS",
+      "continent": "Africa",
+      "flagCode": "MU"
+    },
+    {
+      "stableIdentifier": "un:MEX",
+      "displayName": "Mexico",
+      "category": "country",
+      "geometryIdentifier": "MEX",
+      "continent": "North America",
+      "flagCode": "MX"
+    },
+    {
+      "stableIdentifier": "un:FSM",
+      "displayName": "Micronesia",
+      "category": "country",
+      "geometryIdentifier": "FSM",
+      "continent": "Oceania",
+      "flagCode": "FM"
+    },
+    {
+      "stableIdentifier": "un:MCO",
+      "displayName": "Monaco",
+      "category": "country",
+      "geometryIdentifier": "MCO",
+      "continent": "Europe",
+      "flagCode": "MC"
+    },
+    {
+      "stableIdentifier": "un:MNG",
+      "displayName": "Mongolia",
+      "category": "country",
+      "geometryIdentifier": "MNG",
+      "continent": "Asia",
+      "flagCode": "MN"
+    },
+    {
+      "stableIdentifier": "un:MNE",
+      "displayName": "Montenegro",
+      "category": "country",
+      "geometryIdentifier": "MNE",
+      "continent": "Europe",
+      "flagCode": "ME"
+    },
+    {
+      "stableIdentifier": "un:MAR",
+      "displayName": "Morocco",
+      "category": "country",
+      "geometryIdentifier": "MAR",
+      "continent": "Africa",
+      "flagCode": "MA"
+    },
+    {
+      "stableIdentifier": "un:MOZ",
+      "displayName": "Mozambique",
+      "category": "country",
+      "geometryIdentifier": "MOZ",
+      "continent": "Africa",
+      "flagCode": "MZ"
+    },
+    {
+      "stableIdentifier": "un:MMR",
+      "displayName": "Myanmar",
+      "category": "country",
+      "geometryIdentifier": "MMR",
+      "continent": "Asia",
+      "flagCode": "MM"
+    },
+    {
+      "stableIdentifier": "un:NAM",
+      "displayName": "Namibia",
+      "category": "country",
+      "geometryIdentifier": "NAM",
+      "continent": "Africa",
+      "flagCode": "NA"
+    },
+    {
+      "stableIdentifier": "un:NRU",
+      "displayName": "Nauru",
+      "category": "country",
+      "geometryIdentifier": "NRU",
+      "continent": "Oceania",
+      "flagCode": "NR"
+    },
+    {
+      "stableIdentifier": "un:NPL",
+      "displayName": "Nepal",
+      "category": "country",
+      "geometryIdentifier": "NPL",
+      "continent": "Asia",
+      "flagCode": "NP"
+    },
+    {
+      "stableIdentifier": "un:NLD",
+      "displayName": "Netherlands",
+      "category": "country",
+      "geometryIdentifier": "NLD",
+      "continent": "Europe",
+      "flagCode": "NL"
+    },
+    {
+      "stableIdentifier": "un:NZL",
+      "displayName": "New Zealand",
+      "category": "country",
+      "geometryIdentifier": "NZL",
+      "continent": "Oceania",
+      "flagCode": "NZ"
+    },
+    {
+      "stableIdentifier": "un:NIC",
+      "displayName": "Nicaragua",
+      "category": "country",
+      "geometryIdentifier": "NIC",
+      "continent": "North America",
+      "flagCode": "NI"
+    },
+    {
+      "stableIdentifier": "un:NER",
+      "displayName": "Niger",
+      "category": "country",
+      "geometryIdentifier": "NER",
+      "continent": "Africa",
+      "flagCode": "NE"
+    },
+    {
+      "stableIdentifier": "un:NGA",
+      "displayName": "Nigeria",
+      "category": "country",
+      "geometryIdentifier": "NGA",
+      "continent": "Africa",
+      "flagCode": "NG"
+    },
+    {
+      "stableIdentifier": "un:MKD",
+      "displayName": "North Macedonia",
+      "category": "country",
+      "geometryIdentifier": "MKD",
+      "continent": "Europe",
+      "flagCode": "MK"
+    },
+    {
+      "stableIdentifier": "un:NOR",
+      "displayName": "Norway",
+      "category": "country",
+      "geometryIdentifier": "NOR",
+      "continent": "Europe",
+      "flagCode": "NO"
+    },
+    {
+      "stableIdentifier": "un:OMN",
+      "displayName": "Oman",
+      "category": "country",
+      "geometryIdentifier": "OMN",
+      "continent": "Asia",
+      "flagCode": "OM"
+    },
+    {
+      "stableIdentifier": "un:PAK",
+      "displayName": "Pakistan",
+      "category": "country",
+      "geometryIdentifier": "PAK",
+      "continent": "Asia",
+      "flagCode": "PK"
+    },
+    {
+      "stableIdentifier": "un:PLW",
+      "displayName": "Palau",
+      "category": "country",
+      "geometryIdentifier": "PLW",
+      "continent": "Oceania",
+      "flagCode": "PW"
+    },
+    {
+      "stableIdentifier": "un:PAN",
+      "displayName": "Panama",
+      "category": "country",
+      "geometryIdentifier": "PAN",
+      "continent": "North America",
+      "flagCode": "PA"
+    },
+    {
+      "stableIdentifier": "un:PNG",
+      "displayName": "Papua New Guinea",
+      "category": "country",
+      "geometryIdentifier": "PNG",
+      "continent": "Oceania",
+      "flagCode": "PG"
+    },
+    {
+      "stableIdentifier": "un:PRY",
+      "displayName": "Paraguay",
+      "category": "country",
+      "geometryIdentifier": "PRY",
+      "continent": "South America",
+      "flagCode": "PY"
+    },
+    {
+      "stableIdentifier": "un:PER",
+      "displayName": "Peru",
+      "category": "country",
+      "geometryIdentifier": "PER",
+      "continent": "South America",
+      "flagCode": "PE"
+    },
+    {
+      "stableIdentifier": "un:PHL",
+      "displayName": "Philippines",
+      "category": "country",
+      "geometryIdentifier": "PHL",
+      "continent": "Asia",
+      "flagCode": "PH"
+    },
+    {
+      "stableIdentifier": "un:POL",
+      "displayName": "Poland",
+      "category": "country",
+      "geometryIdentifier": "POL",
+      "continent": "Europe",
+      "flagCode": "PL"
+    },
+    {
+      "stableIdentifier": "un:PRT",
+      "displayName": "Portugal",
+      "category": "country",
+      "geometryIdentifier": "PRT",
+      "continent": "Europe",
+      "flagCode": "PT"
+    },
+    {
+      "stableIdentifier": "un:QAT",
+      "displayName": "Qatar",
+      "category": "country",
+      "geometryIdentifier": "QAT",
+      "continent": "Asia",
+      "flagCode": "QA"
+    },
+    {
+      "stableIdentifier": "un:KOR",
+      "displayName": "Republic of Korea",
+      "category": "country",
+      "geometryIdentifier": "KOR",
+      "continent": "Asia",
+      "flagCode": "KR"
+    },
+    {
+      "stableIdentifier": "un:MDA",
+      "displayName": "Republic of Moldova",
+      "category": "country",
+      "geometryIdentifier": "MDA",
+      "continent": "Europe",
+      "flagCode": "MD"
+    },
+    {
+      "stableIdentifier": "un:ROU",
+      "displayName": "Romania",
+      "category": "country",
+      "geometryIdentifier": "ROU",
+      "continent": "Europe",
+      "flagCode": "RO"
+    },
+    {
+      "stableIdentifier": "un:RUS",
+      "displayName": "Russian Federation",
+      "category": "country",
+      "geometryIdentifier": "RUS",
+      "continent": "Europe",
+      "flagCode": "RU"
+    },
+    {
+      "stableIdentifier": "un:RWA",
+      "displayName": "Rwanda",
+      "category": "country",
+      "geometryIdentifier": "RWA",
+      "continent": "Africa",
+      "flagCode": "RW"
+    },
+    {
+      "stableIdentifier": "un:KNA",
+      "displayName": "Saint Kitts and Nevis",
+      "category": "country",
+      "geometryIdentifier": "KNA",
+      "continent": "North America",
+      "flagCode": "KN"
+    },
+    {
+      "stableIdentifier": "un:LCA",
+      "displayName": "Saint Lucia",
+      "category": "country",
+      "geometryIdentifier": "LCA",
+      "continent": "North America",
+      "flagCode": "LC"
+    },
+    {
+      "stableIdentifier": "un:VCT",
+      "displayName": "Saint Vincent and the Grenadines",
+      "category": "country",
+      "geometryIdentifier": "VCT",
+      "continent": "North America",
+      "flagCode": "VC"
+    },
+    {
+      "stableIdentifier": "un:WSM",
+      "displayName": "Samoa",
+      "category": "country",
+      "geometryIdentifier": "WSM",
+      "continent": "Oceania",
+      "flagCode": "WS"
+    },
+    {
+      "stableIdentifier": "un:SMR",
+      "displayName": "San Marino",
+      "category": "country",
+      "geometryIdentifier": "SMR",
+      "continent": "Europe",
+      "flagCode": "SM"
+    },
+    {
+      "stableIdentifier": "un:STP",
+      "displayName": "Sao Tome and Principe",
+      "category": "country",
+      "geometryIdentifier": "STP",
+      "continent": "Africa",
+      "flagCode": "ST"
+    },
+    {
+      "stableIdentifier": "un:SAU",
+      "displayName": "Saudi Arabia",
+      "category": "country",
+      "geometryIdentifier": "SAU",
+      "continent": "Asia",
+      "flagCode": "SA"
+    },
+    {
+      "stableIdentifier": "un:SEN",
+      "displayName": "Senegal",
+      "category": "country",
+      "geometryIdentifier": "SEN",
+      "continent": "Africa",
+      "flagCode": "SN"
+    },
+    {
+      "stableIdentifier": "un:SRB",
+      "displayName": "Serbia",
+      "category": "country",
+      "geometryIdentifier": "SRB",
+      "continent": "Europe",
+      "flagCode": "RS"
+    },
+    {
+      "stableIdentifier": "un:SYC",
+      "displayName": "Seychelles",
+      "category": "country",
+      "geometryIdentifier": "SYC",
+      "continent": "Africa",
+      "flagCode": "SC"
+    },
+    {
+      "stableIdentifier": "un:SLE",
+      "displayName": "Sierra Leone",
+      "category": "country",
+      "geometryIdentifier": "SLE",
+      "continent": "Africa",
+      "flagCode": "SL"
+    },
+    {
+      "stableIdentifier": "un:SGP",
+      "displayName": "Singapore",
+      "category": "country",
+      "geometryIdentifier": "SGP",
+      "continent": "Asia",
+      "flagCode": "SG"
+    },
+    {
+      "stableIdentifier": "un:SVK",
+      "displayName": "Slovakia",
+      "category": "country",
+      "geometryIdentifier": "SVK",
+      "continent": "Europe",
+      "flagCode": "SK"
+    },
+    {
+      "stableIdentifier": "un:SVN",
+      "displayName": "Slovenia",
+      "category": "country",
+      "geometryIdentifier": "SVN",
+      "continent": "Europe",
+      "flagCode": "SI"
+    },
+    {
+      "stableIdentifier": "un:SLB",
+      "displayName": "Solomon Islands",
+      "category": "country",
+      "geometryIdentifier": "SLB",
+      "continent": "Oceania",
+      "flagCode": "SB"
+    },
+    {
+      "stableIdentifier": "un:SOM",
+      "displayName": "Somalia",
+      "category": "country",
+      "geometryIdentifier": "SOM",
+      "continent": "Africa",
+      "flagCode": "SO"
+    },
+    {
+      "stableIdentifier": "un:ZAF",
+      "displayName": "South Africa",
+      "category": "country",
+      "geometryIdentifier": "ZAF",
+      "continent": "Africa",
+      "flagCode": "ZA"
+    },
+    {
+      "stableIdentifier": "un:SSD",
+      "displayName": "South Sudan",
+      "category": "country",
+      "geometryIdentifier": "SSD",
+      "continent": "Africa",
+      "flagCode": "SS"
+    },
+    {
+      "stableIdentifier": "un:ESP",
+      "displayName": "Spain",
+      "category": "country",
+      "geometryIdentifier": "ESP",
+      "continent": "Europe",
+      "flagCode": "ES"
+    },
+    {
+      "stableIdentifier": "un:LKA",
+      "displayName": "Sri Lanka",
+      "category": "country",
+      "geometryIdentifier": "LKA",
+      "continent": "Asia",
+      "flagCode": "LK"
+    },
+    {
+      "stableIdentifier": "un:SDN",
+      "displayName": "Sudan",
+      "category": "country",
+      "geometryIdentifier": "SDN",
+      "continent": "Africa",
+      "flagCode": "SD"
+    },
+    {
+      "stableIdentifier": "un:SUR",
+      "displayName": "Suriname",
+      "category": "country",
+      "geometryIdentifier": "SUR",
+      "continent": "South America",
+      "flagCode": "SR"
+    },
+    {
+      "stableIdentifier": "un:SWE",
+      "displayName": "Sweden",
+      "category": "country",
+      "geometryIdentifier": "SWE",
+      "continent": "Europe",
+      "flagCode": "SE"
+    },
+    {
+      "stableIdentifier": "un:CHE",
+      "displayName": "Switzerland",
+      "category": "country",
+      "geometryIdentifier": "CHE",
+      "continent": "Europe",
+      "flagCode": "CH"
+    },
+    {
+      "stableIdentifier": "un:SYR",
+      "displayName": "Syrian Arab Republic",
+      "category": "country",
+      "geometryIdentifier": "SYR",
+      "continent": "Asia",
+      "flagCode": "SY"
+    },
+    {
+      "stableIdentifier": "un:TJK",
+      "displayName": "Tajikistan",
+      "category": "country",
+      "geometryIdentifier": "TJK",
+      "continent": "Asia",
+      "flagCode": "TJ"
+    },
+    {
+      "stableIdentifier": "un:THA",
+      "displayName": "Thailand",
+      "category": "country",
+      "geometryIdentifier": "THA",
+      "continent": "Asia",
+      "flagCode": "TH"
+    },
+    {
+      "stableIdentifier": "un:TLS",
+      "displayName": "Timor-Leste",
+      "category": "country",
+      "geometryIdentifier": "TLS",
+      "continent": "Asia",
+      "flagCode": "TL"
+    },
+    {
+      "stableIdentifier": "un:TGO",
+      "displayName": "Togo",
+      "category": "country",
+      "geometryIdentifier": "TGO",
+      "continent": "Africa",
+      "flagCode": "TG"
+    },
+    {
+      "stableIdentifier": "un:TON",
+      "displayName": "Tonga",
+      "category": "country",
+      "geometryIdentifier": "TON",
+      "continent": "Oceania",
+      "flagCode": "TO"
+    },
+    {
+      "stableIdentifier": "un:TTO",
+      "displayName": "Trinidad and Tobago",
+      "category": "country",
+      "geometryIdentifier": "TTO",
+      "continent": "North America",
+      "flagCode": "TT"
+    },
+    {
+      "stableIdentifier": "un:TUN",
+      "displayName": "Tunisia",
+      "category": "country",
+      "geometryIdentifier": "TUN",
+      "continent": "Africa",
+      "flagCode": "TN"
+    },
+    {
+      "stableIdentifier": "un:TUR",
+      "displayName": "Turkiye",
+      "category": "country",
+      "geometryIdentifier": "TUR",
+      "continent": "Asia",
+      "flagCode": "TR"
+    },
+    {
+      "stableIdentifier": "un:TKM",
+      "displayName": "Turkmenistan",
+      "category": "country",
+      "geometryIdentifier": "TKM",
+      "continent": "Asia",
+      "flagCode": "TM"
+    },
+    {
+      "stableIdentifier": "un:TUV",
+      "displayName": "Tuvalu",
+      "category": "country",
+      "geometryIdentifier": "TUV",
+      "continent": "Oceania",
+      "flagCode": "TV"
+    },
+    {
+      "stableIdentifier": "un:UGA",
+      "displayName": "Uganda",
+      "category": "country",
+      "geometryIdentifier": "UGA",
+      "continent": "Africa",
+      "flagCode": "UG"
+    },
+    {
+      "stableIdentifier": "un:UKR",
+      "displayName": "Ukraine",
+      "category": "country",
+      "geometryIdentifier": "UKR",
+      "continent": "Europe",
+      "flagCode": "UA"
+    },
+    {
+      "stableIdentifier": "un:ARE",
+      "displayName": "United Arab Emirates",
+      "category": "country",
+      "geometryIdentifier": "ARE",
+      "continent": "Asia",
+      "flagCode": "AE"
+    },
+    {
+      "stableIdentifier": "un:GBR",
+      "displayName": "United Kingdom",
+      "category": "country",
+      "geometryIdentifier": "GBR",
+      "continent": "Europe",
+      "flagCode": "GB"
+    },
+    {
+      "stableIdentifier": "un:TZA",
+      "displayName": "United Republic of Tanzania",
+      "category": "country",
+      "geometryIdentifier": "TZA",
+      "continent": "Africa",
+      "flagCode": "TZ"
+    },
+    {
+      "stableIdentifier": "un:USA",
+      "displayName": "United States of America",
+      "category": "country",
+      "geometryIdentifier": "USA",
+      "continent": "North America",
+      "flagCode": "US"
+    },
+    {
+      "stableIdentifier": "un:URY",
+      "displayName": "Uruguay",
+      "category": "country",
+      "geometryIdentifier": "URY",
+      "continent": "South America",
+      "flagCode": "UY"
+    },
+    {
+      "stableIdentifier": "un:UZB",
+      "displayName": "Uzbekistan",
+      "category": "country",
+      "geometryIdentifier": "UZB",
+      "continent": "Asia",
+      "flagCode": "UZ"
+    },
+    {
+      "stableIdentifier": "un:VUT",
+      "displayName": "Vanuatu",
+      "category": "country",
+      "geometryIdentifier": "VUT",
+      "continent": "Oceania",
+      "flagCode": "VU"
+    },
+    {
+      "stableIdentifier": "un:VEN",
+      "displayName": "Venezuela",
+      "category": "country",
+      "geometryIdentifier": "VEN",
+      "continent": "South America",
+      "flagCode": "VE"
+    },
+    {
+      "stableIdentifier": "un:VNM",
+      "displayName": "Viet Nam",
+      "category": "country",
+      "geometryIdentifier": "VNM",
+      "continent": "Asia",
+      "flagCode": "VN"
+    },
+    {
+      "stableIdentifier": "un:YEM",
+      "displayName": "Yemen",
+      "category": "country",
+      "geometryIdentifier": "YEM",
+      "continent": "Asia",
+      "flagCode": "YE"
+    },
+    {
+      "stableIdentifier": "un:ZMB",
+      "displayName": "Zambia",
+      "category": "country",
+      "geometryIdentifier": "ZMB",
+      "continent": "Africa",
+      "flagCode": "ZM"
+    },
+    {
+      "stableIdentifier": "un:ZWE",
+      "displayName": "Zimbabwe",
+      "category": "country",
+      "geometryIdentifier": "ZWE",
+      "continent": "Africa",
+      "flagCode": "ZW"
+    },
+    {
+      "stableIdentifier": "nsgt:ASM",
+      "displayName": "American Samoa",
+      "category": "territory",
+      "geometryIdentifier": "ASM",
+      "continent": "Oceania",
+      "flagCode": "AS"
+    },
+    {
+      "stableIdentifier": "nsgt:AIA",
+      "displayName": "Anguilla",
+      "category": "territory",
+      "geometryIdentifier": "AIA",
+      "continent": "North America",
+      "flagCode": "AI"
+    },
+    {
+      "stableIdentifier": "nsgt:BMU",
+      "displayName": "Bermuda",
+      "category": "territory",
+      "geometryIdentifier": "BMU",
+      "continent": "North America",
+      "flagCode": "BM"
+    },
+    {
+      "stableIdentifier": "nsgt:VGB",
+      "displayName": "British Virgin Islands",
+      "category": "territory",
+      "geometryIdentifier": "VGB",
+      "continent": "North America",
+      "flagCode": "VG"
+    },
+    {
+      "stableIdentifier": "nsgt:CYM",
+      "displayName": "Cayman Islands",
+      "category": "territory",
+      "geometryIdentifier": "CYM",
+      "continent": "North America",
+      "flagCode": "KY"
+    },
+    {
+      "stableIdentifier": "nsgt:FLK",
+      "displayName": "Falkland Islands (Malvinas)",
+      "category": "territory",
+      "geometryIdentifier": "FLK",
+      "continent": "South America",
+      "flagCode": "FK"
+    },
+    {
+      "stableIdentifier": "nsgt:PYF",
+      "displayName": "French Polynesia",
+      "category": "territory",
+      "geometryIdentifier": "PYF",
+      "continent": "Oceania",
+      "flagCode": "PF"
+    },
+    {
+      "stableIdentifier": "nsgt:GIB",
+      "displayName": "Gibraltar",
+      "category": "territory",
+      "geometryIdentifier": "GIB",
+      "continent": "Europe",
+      "flagCode": "GI"
+    },
+    {
+      "stableIdentifier": "nsgt:GUM",
+      "displayName": "Guam",
+      "category": "territory",
+      "geometryIdentifier": "GUM",
+      "continent": "Oceania",
+      "flagCode": "GU"
+    },
+    {
+      "stableIdentifier": "nsgt:MSR",
+      "displayName": "Montserrat",
+      "category": "territory",
+      "geometryIdentifier": "MSR",
+      "continent": "North America",
+      "flagCode": "MS"
+    },
+    {
+      "stableIdentifier": "nsgt:NCL",
+      "displayName": "New Caledonia",
+      "category": "territory",
+      "geometryIdentifier": "NCL",
+      "continent": "Oceania",
+      "flagCode": "NC"
+    },
+    {
+      "stableIdentifier": "nsgt:PCN",
+      "displayName": "Pitcairn",
+      "category": "territory",
+      "geometryIdentifier": "PCN",
+      "continent": "Oceania",
+      "flagCode": "PN"
+    },
+    {
+      "stableIdentifier": "nsgt:SHN",
+      "displayName": "Saint Helena",
+      "category": "territory",
+      "geometryIdentifier": "SHN",
+      "continent": "Africa",
+      "flagCode": "SH"
+    },
+    {
+      "stableIdentifier": "nsgt:TKL",
+      "displayName": "Tokelau",
+      "category": "territory",
+      "geometryIdentifier": "TKL",
+      "continent": "Oceania",
+      "flagCode": "TK"
+    },
+    {
+      "stableIdentifier": "nsgt:TCA",
+      "displayName": "Turks and Caicos Islands",
+      "category": "territory",
+      "geometryIdentifier": "TCA",
+      "continent": "North America",
+      "flagCode": "TC"
+    },
+    {
+      "stableIdentifier": "nsgt:VIR",
+      "displayName": "United States Virgin Islands",
+      "category": "territory",
+      "geometryIdentifier": "VIR",
+      "continent": "North America",
+      "flagCode": "VI"
+    },
+    {
+      "stableIdentifier": "nsgt:ESH",
+      "displayName": "Western Sahara",
+      "category": "territory",
+      "geometryIdentifier": "ESH",
+      "continent": "Africa",
+      "flagCode": "EH"
+    }
+  ]
+}
