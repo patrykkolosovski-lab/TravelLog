@@ -15,6 +15,7 @@ struct LocationDetailInspector: View {
     @State private var isConfirmingDelete = false
     @State private var journalPendingDeletion: JournalEntry?
     @State private var previewPhoto: TravelPhoto?
+    @State private var isPrimaryLocationExpanded = true
     @State private var isCitiesExpanded = true
     @State private var expandedCityIdentifiers = Set<UUID>()
 
@@ -75,6 +76,13 @@ struct LocationDetailInspector: View {
         return reference?.category == .territory ? "UN territory" : "UN country"
     }
 
+    private var groupsPrimaryContent: Bool {
+        if let location {
+            return location.kind != .city
+        }
+        return reference != nil
+    }
+
     var body: some View {
         VStack(spacing: 0) {
             header
@@ -83,9 +91,13 @@ struct LocationDetailInspector: View {
             ScrollView {
                 VStack(alignment: .leading, spacing: 22) {
                     facts
-                    citiesSection
-                    photosSection
-                    journalsSection
+                    if groupsPrimaryContent {
+                        primaryLocationSection
+                        citiesSection
+                    } else {
+                        photosSection
+                        journalsSection
+                    }
                 }
                 .padding(16)
                 .frame(maxWidth: .infinity, alignment: .leading)
@@ -214,6 +226,28 @@ struct LocationDetailInspector: View {
                 journalEntries(entries)
             } else {
                 emptyRow("No journal entries", systemImage: "text.page")
+            }
+        }
+    }
+
+    private var primaryLocationSection: some View {
+        DisclosureGroup(isExpanded: $isPrimaryLocationExpanded) {
+            VStack(alignment: .leading, spacing: 18) {
+                photosSection
+                journalsSection
+            }
+            .padding(.top, 10)
+            .padding(.leading, 8)
+        } label: {
+            HStack(spacing: 7) {
+                let flag = FlagSymbol.make(from: displayReference?.flagCode)
+                if !flag.isEmpty {
+                    Text(flag)
+                        .accessibilityHidden(true)
+                }
+                Text(displayName)
+                    .font(.subheadline.weight(.semibold))
+                Spacer()
             }
         }
     }
